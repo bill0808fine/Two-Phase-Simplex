@@ -4,9 +4,9 @@ This project implement two-phase simplex algorithm.
 The standard form of simplex is positive RHS and '<' sign.
 It can process negative RHS, '>' and '=' sign.
 
-If ths the sign is '>' or '<', then the constraint need to add slack variables, and
+If ths the sign is '>' or '<', we need to add slack variables constraint, and
 
-if the sign is '>' or '=', then the constraint need to add artificial variables.
+if the sign is '>' or '=', then we need to add artificial variables to constraint.
 
 # Format
 Input file is mps file, and the objective function is minimize.
